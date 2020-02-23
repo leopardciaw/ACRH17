@@ -6,14 +6,14 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Acrh17-6
+name: Acrh17-7
 
 on:
-#  release:
-#    types: [published]
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
+#  push:
+#    branches:
+#      - master
 
 #   paths:
 #     - 'acrh17.config'
