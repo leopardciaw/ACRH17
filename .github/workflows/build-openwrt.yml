@@ -9,15 +9,15 @@
 name: Build OpenWrt ACRH17
 
 on:
-#  release:
-#    types: published
+  release:
+    types: published
 #  push:
 #    branches:
 #      - master
 #    paths:
 #      - '.config'
-  schedule:
-     - cron: 35 23 * * 3
+#  schedule:
+#     - cron: 35 23 * * 3
 #    - cron: 0 8 */3 * *
 #  watch:
 #    types: started
