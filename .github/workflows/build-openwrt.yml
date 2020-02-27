@@ -6,14 +6,14 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt ACRH18
+name: Build OpenWrt ACRH28
 
 on:
-  release:
-    types: [published]
-#  push:
-#    branches:
-#      - master
+#  release:
+#    types: [published]
+  push:
+    branches:
+      - master
 #    paths:
 #      - '.config'
   schedule:
