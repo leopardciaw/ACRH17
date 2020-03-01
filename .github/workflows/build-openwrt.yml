@@ -10,7 +10,7 @@ name: Build OpenWrt ACRH28
 
 on:
   release:
-    types: [published]
+    types: published
 #  push:
 #    branches:
 #      - master
