@@ -2,7 +2,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
-# Author: P3TERX
+# Author: P3TERXfalse
 # Blog: https://p3terx.com
 #=================================================
 
@@ -28,7 +28,7 @@ env:
   REPO_BRANCH: master
   CONFIG_FILE: acrh17.config
   DIY_SH: diy.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
