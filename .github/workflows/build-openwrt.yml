@@ -9,15 +9,14 @@
 name: Build OpenWrt ACRH17
 
 on:
-  release:
-    types: published
-#  push:
-#    branches:
-#      - master
+#  release:
+#    types: published
+  push:
+    branches:
+      - master
 #    paths:
 #      - '.config'
 #  schedule:
-#     - cron: '52 2 * * 3'
 #    - cron: 25 2 * * 3
 #    - cron: 0 8 */3 * *
 #  watch:
@@ -71,7 +70,8 @@ jobs:
         chmod +x $DIY_SH
         cd openwrt
         ../$DIY_SH
-        make defconfig
+        cat -n .config
+        nl .config
 
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@master
