@@ -9,11 +9,11 @@
 name: Build OpenWrt ACRH17
 
 on:
-#  release:
-#    types: published
-  push:
-    branches:
-      - master
+  release:
+    types: published
+#  push:
+#    branches:
+#      - master
 #    paths:
 #      - '.config'
 #  schedule:
@@ -70,7 +70,6 @@ jobs:
         chmod +x $DIY_SH
         cd openwrt
         ../$DIY_SH
-        cat -n .config
         nl .config
 
     - name: SSH connection to Actions
