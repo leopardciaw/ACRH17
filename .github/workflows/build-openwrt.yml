@@ -27,8 +27,8 @@ env:
   REPO_BRANCH: master
   CONFIG_FILE: acrh17.config
   DIY_SH: diy.sh
-  SSH_ACTIONS: false
-  UPLOAD_BIN_DIR: false
+  SSH_ACTIONS: true
+  UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
