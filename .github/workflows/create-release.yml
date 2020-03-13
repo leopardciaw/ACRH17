@@ -10,7 +10,7 @@ name: Create release
 
 on:
   schedule:
-    - cron: 5 16 * * *
+    - cron: 45 23 * * *
 #          分 时 日 月 周
 #   - cron: 0 8 */3 * *
 
