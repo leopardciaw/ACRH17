@@ -22,7 +22,7 @@ sed -i 's/OpenWrt/Leopard build $(date "+%Y.%m.%d") @ OpenWrt/g' package/lean/de
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
 
 #增加koolddns
-git clone https://github.com/leopardciaw/luci-app-koolddns.git package/lean/luci-app-koolddns
+# git clone https://github.com/leopardciaw/luci-app-koolddns.git package/lean/luci-app-koolddns
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
