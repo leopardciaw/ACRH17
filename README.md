@@ -1,6 +1,6 @@
 # Auto build OpenWrt firmware for ACRH17
 固件采用GitHub Actions不定时自动云编译。  
-Auto build OpenWrt firmware for P2W R619AC via GitHub Actions
+Auto build OpenWrt firmware for ACRH17 via GitHub Actions
 
 # 致谢大佬&Thanks
 
@@ -9,9 +9,10 @@ https://github.com/P3TERX/Actions-OpenWrt/
 https://github.com/coolsnowwolf/lede  
 .....
 
-Auto build OpenWrt firmware for ACRH17 via GitHub Actions
+
 # 最新版下载&Download
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/leopardciaw/ACRH17?style=for-the-badge&label=Download)](https://github.com/leopardciaw/ACRH17/releases/latest)
+
 
 # 请注意
 1.集成的插件只是自己需要用到的，请多多包涵。  
