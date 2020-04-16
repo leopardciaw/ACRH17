@@ -6,7 +6,7 @@ Auto build OpenWrt firmware for P2W R619AC via GitHub Actions
 
 https://github.com/P3TERX/Actions-OpenWrt/
 
-https://github.com/coolsnowwolf/lede
+https://github.com/coolsnowwolf/lede  
 .....
 
 Auto build OpenWrt firmware for ACRH17 via GitHub Actions
