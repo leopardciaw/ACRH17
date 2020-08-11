@@ -11,9 +11,9 @@ name: Build OpenWrt ACRH17
 on:
   release:
     types: published
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
 #    paths:
 #      - '.config'
 #  schedule:
