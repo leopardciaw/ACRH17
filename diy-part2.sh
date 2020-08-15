@@ -55,4 +55,3 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/lu
 # git clone https://github.com/Lienol/openwrt-package package/diy-packages/lienol
 # 获取luci-app-serverchan
 # git clone https://github.com/tty228/luci-app-serverchan package/diy-packages/luci-app-serverchan
-popd
