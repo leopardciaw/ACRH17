@@ -4,9 +4,13 @@ Auto build OpenWrt firmware for ACRH17 via GitHub Actions
 
 # 致谢大佬&Thanks
 
+https://github.com/coolsnowwolf/lede
+
 https://github.com/P3TERX/Actions-OpenWrt/
 
-https://github.com/coolsnowwolf/lede  
+https://github.com/Lienol/openwrt-package
+
+https://github.com/kenzok8/openwrt-packages
 .....
 
 
